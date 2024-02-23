@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(56, 58, 58);
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vmin;
+}
+.box {
+  height: 70vmin;
+  width: 70vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn {
+  height: 20vmin;
+  width: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(105, 106, 108, 0.512);
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 15vmin;
+}
+#reset-button {
+  width: 25vmin;
+  height: 8vmin;
+  font-size: 3vmin;
+  background-color: rgb(214, 214, 214);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#reset-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+#reset-button:active {
+  transform: scale(0.95);
+}
+.msg {
+  font-size: 5vmin;
+  color: crimson;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+.win-msg {
+  font-size: 5vmin;
+  color: crimson;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+.hidden {
+  display: none;
+}
+.hov{
+  color: rgba(255, 255, 255, 0.175);
+}
